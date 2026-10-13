@@ -42,6 +42,15 @@ MongoDB connected: blogDB
 The `blogDB` database and `blogs` collection are created automatically on the
 first insert.
 
+## Seed sample data
+
+```bash
+npm run seed
+```
+
+Inserts a set of sample blog posts (safe to run repeatedly — existing titles
+are skipped).
+
 ## API
 
 | Method | Endpoint | Auth | Description |
