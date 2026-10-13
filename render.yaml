@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: blog-portfolio-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: FIREBASE_API_KEY
+        sync: false
